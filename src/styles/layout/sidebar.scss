@@ -1,0 +1,79 @@
+.dropdown-container {
+  display:none;
+  color: #000;
+  background-color: #ffffff;
+  //border: 0.2px solid #ccc;
+  // width: 50%;
+  width: 214px;
+height: 559px;
+  font-size: 1rem;
+  margin: 0 20px 0 20px;
+  // background-color: teal;
+
+  &-contain {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    text-decoration: none;
+
+    // &:first-child {
+    //   margin-top: 13px;
+    // }
+  }
+  &-icon {
+    margin-top: 13px;
+  }
+
+  &-name {
+    color: #2b58b3;
+    margin-top: 13px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+   
+
+    h4 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  }
+
+  &-google-play-store {
+    margin: 2rem auto;
+  }
+
+  hr {
+    border: 0.1px solid #ccc;
+    width: 182px;
+    margin-left: 16px;
+    background: linear-gradient(0deg, #455980, #455980),
+linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+
+  }
+
+  @media screen and (min-width: 800px) {
+    & {
+      // width: 30%;
+      width: 214px;
+height: 559px;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    & {
+      display:block;
+    }
+  }
+}
+// .dropdown-container-contain {
+//   width: 180px;
+//   background:  #EBF0FF;
+// }
+
+
+
+

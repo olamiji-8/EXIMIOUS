@@ -1,0 +1,147 @@
+@import './Service.scss';
+
+.Sec-Bg {
+    background-color: $secondary-bg-color;
+}
+.Service-Hero {
+    padding-block: 1rem;
+    .Container {
+        width: 90%;
+        margin: auto;
+
+    }
+    p {
+        color: $secondary-text-color;
+        font-size: 1rem;
+        margin-block: 20px;
+        line-height: 150%;
+    }
+
+    h1 {
+        color: $primary-text-color;
+        margin: auto;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    a {
+        display: inline-block;
+    }
+    .Mobile-Only {
+        a {
+            color: $highlight-color;
+        }
+        a.Ul {
+            text-decoration: underline ;
+        }
+    }
+    .Desktop-Only {
+        display: none;
+    }
+}
+.FeaturedServices-Section, .TopVendors-Section {
+    margin-block: 40px;
+    .ServiceCard {
+        height: 200px;
+    }
+}
+.Section-Header {
+    @include FlexAlignCenter();
+    justify-content: space-between;
+    max-width: 312px;
+    margin: auto;
+    margin-bottom: 30px;
+
+    h2 {
+        font-size: 20px;
+    }
+    a {
+        color: $highlight-color;
+        font-size: 16px;
+    }
+}
+.Pricing-Section {
+    padding-block: 40px;
+    .Pr {
+        max-width: 276px;
+        margin: auto;
+        text-align: center;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        P {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            margin-block: 20px 45px
+        }
+    }
+    .PriceCard-List {
+        @include FlexAlignCenter();
+        gap: 40px 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .Price-Card {
+        max-width: 229px;
+        padding: 20px 40px;
+        background-color: white;
+        text-align: center;
+        img {
+            margin-block: 30px 30px;
+        }
+        .Duration {
+            font-size: 16px;
+        }
+        .Desc {
+            margin-block: 20px 60px;
+            font-size: 16px;
+            line-height: 150%;
+        }
+        a {
+            display: block;
+            color: #ffffff;
+            margin-top: 15px;
+            background-color: $highlight-color;
+            padding: .65rem;
+            text-transform: capitalize;
+        }
+    }
+}
+@media (min-width: 576px) {
+    .Section-Header {
+        max-width: 486px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Service-Hero {
+        text-align: center;
+        padding-block: 8rem;
+        .Container {
+            max-width: 644px;
+        }
+        .Desktop-Only {
+            display: unset;
+        }
+        .Mobile-Only {
+            display: none;
+        }
+    }
+
+    .Section-Header {
+        max-width: 636px;
+    }
+
+    .FeaturedServices-Section, .TopVendors-Section {
+        margin-bottom: 190px;
+    }
+}
+
+@media (min-width: 992px) {
+    .Section-Header {
+        max-width: 967px;
+    }
+}

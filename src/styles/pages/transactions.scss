@@ -1,0 +1,75 @@
+.transaction-container {
+    display: flex;
+}
+.back-container {
+    margin: 40px 0 0 42px;
+    width: 100%;
+}
+.back {
+    display: flex;
+}
+.back-text{
+    margin-left: 10px;
+    font-family: Butler;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #17294D;
+}
+.back-svg {
+    margin-top: 4px;
+}
+.trans-subtitle {
+    display: flex;
+}
+.transaction-title {
+    font-family: Butler;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 37px;
+color: #17294D;
+}
+.transaction-options {
+    margin: 24px 0 26px 50px;
+    font-family: 'Mulish', sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+color: #B4B4B4;
+
+
+}
+.transaction-list {
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+}
+.trans-text {
+    margin-left: 29px;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+color: #4B5FFA;
+width: 330px;
+margin-bottom: 4px;
+// background-color: #4B5FFA;
+
+}
+.trans-date {
+    color: #B1B1B1;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-bottom: 16px;
+}
+
+.buy  {
+    margin-left: 127px;
+    color: #455980;
+}

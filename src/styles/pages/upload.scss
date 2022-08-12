@@ -1,0 +1,70 @@
+.upload-container-h2{
+   margin-left: 1.5rem
+}
+
+@media screen and (min-width:800px) {
+   .upload-container-all{
+      display: flex;
+   }
+}
+.upload-lease-bcg{
+   margin: 0 auto;
+   width: 15rem;
+   height: 14rem;
+   margin: 2rem auto;
+   position: relative;
+    cursor: pointer;
+  
+}
+
+.upload-lease-icon{
+   position: absolute;
+   top: 15%;
+   left: 22%;
+}
+
+.upload-sell-bcg{
+   width: 12rem;
+   position: relative;
+   margin: 0 auto;
+
+   &-first,
+   &-second,
+   &-third,
+   &-fourth,
+   &-fifth{
+      position: absolute;
+   }
+   &-first{
+      top: 5%;
+      left: -5.2%;
+      z-index: 1;
+       
+   }
+   &-third{
+      top:2rem;
+      left: 2rem;
+      z-index: 1;
+     
+
+   }
+   &-second{
+      top: .3rem;
+      z-index: -1;
+
+   }
+   &-fourth{
+      top: 6rem;
+      z-index: 1;
+      left: 2rem;
+   }
+   &-fifth{
+      top:9rem;
+      z-index: 1;
+      left: 2rem;
+
+   }
+}
+.flex-all{
+   display: flex;
+}

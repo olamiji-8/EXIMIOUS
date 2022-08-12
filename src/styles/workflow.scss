@@ -1,0 +1,47 @@
+@import "./_variables/mixins";
+@import "./layout/sidebar";
+@import "./_variables/variables";
+@import "./ui/navbar.scss";
+@import "./pages/landing.scss";
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Layout__Constraints {
+  @include Constraints;
+}
+
+.btn {
+  @include Button;
+}
+
+.card-component {
+  @include Card;
+  border: 0.1px solid #ccc;
+}
+
+.shadow-card-component {
+  @include Shadow-Card(#ffffff);
+  border: 0.1px solid #ccc;
+}
+
+.container-component {
+  @include Container;
+}
+
+.shadow-container-component {
+  @include Shadow-Container;
+}
+
+.modal-overlay {
+  @include Modal-Overlay;
+}
+
+.modal-container {
+  @include Modal-Container;
+}
