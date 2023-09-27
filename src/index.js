@@ -7,7 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import RoutesComponents from "./routes";
 
 // CSS
-import "./index.css";
+
 import "./styles/workflow.scss";
 
 const IndexPage = () => {

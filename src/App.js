@@ -1,4 +1,4 @@
-import "./App.css";
+
 
 import Button from "./components/ui/Button";
 import Card from "./components/ui/Card";
@@ -10,7 +10,6 @@ import ShadowCard from "./components/ui/ShadowCards";
 
 // import Footer from "./layouts/Footer";
 
-import "./App.css";
 import Home from "./pages/Home";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
       <header className="App-header ">
         <Home />
         {/* <Navigation /> */}
-        =======
         {/* <DashboardSideBar />
         <br />
         <Button text="Sample Button" link="login" styles={{}} />
