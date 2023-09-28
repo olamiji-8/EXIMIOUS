@@ -53,24 +53,26 @@
       @include Flex;
       align-items: center;
       max-width: 473px;
+      
       img {
         max-width: 100%;
         max-height: 100%;
         justify-self: center;
+        border-radius: 10%;
       }
     }
-    .header-section__image::after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      aspect-ratio: 1;
-      border-radius: 100%;
-      left: 56.5%;
-      transform: translateX(-50%);
-      bottom: -55px;
-      border: 80px solid #c2dcff;
-      z-index: -10;
-    }
+    // .header-section__image::after {
+    //   content: "";
+    //   position: absolute;
+    //   width: 100%;
+    //   aspect-ratio: 1;
+    //   border-radius: 100%;
+    //   left: 56.5%;
+    //   transform: translateX(-50%);
+    //   bottom: -55px;
+    //   border: 80px solid #c2dcff;
+    //   z-index: -10;
+    // }
     .header-section__searchbar {
       position: absolute;
       left: 20px;

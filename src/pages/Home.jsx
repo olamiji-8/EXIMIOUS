@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../components/ui/Button";
 import Navigation from "../layouts/Navbar";
-import headerImage from "../assets/images/home/ren-2 2.png";
+import headerImage from "../assets/images/home/front.jpeg";
 import stars from "../assets/svg/home/stars.svg";
 import onlinePayment from "../assets/images/home/OnlinePayment.png";
 import dropDown from "../assets/svg/home/drop-down.svg";
