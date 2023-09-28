@@ -70,8 +70,8 @@ const Navigation = () => {
         <div className="middle"></div>
         <div className="last"></div>
       </div>
-      <Link className="mobile-navigation-logo" to="/">
-        EXIMIOUS
+      <Link className="mobile-navigation-logo" to="/" style={{textDecoration:"none"}} >
+      <p style={{ color:"blue", marginLeft:"20%", fontSize:"24px"}}> EXIMIOUS</p>
       </Link>
     </div>
   );
