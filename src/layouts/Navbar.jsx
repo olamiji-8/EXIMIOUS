@@ -71,7 +71,7 @@ const Navigation = () => {
         <div className="last"></div>
       </div>
       <Link className="mobile-navigation-logo" to="/">
-        <img src={logo} alt="logo" />
+        EXIMIOUS
       </Link>
     </div>
   );
