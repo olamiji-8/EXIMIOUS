@@ -338,11 +338,11 @@
     .cards {
       @include Flex;
       justify-content: space-between;
-      height: 300px;
+      height: 600px;
 
       .shadow-card-component {
         width: 270px;
-        height: 182px;
+        height: 250px;
         background: #c2dcff;
         box-shadow: 4px 30px 49px rgba(0, 0, 0, 0.25);
         .remark {

@@ -24,13 +24,13 @@ const Header = () => {
         </div>
         <div className="header-flex">
           <h1 className="header-section__title">
-            Real Estate Transactions Made Easy
+          Eximious Real Estate
           </h1>
           <p className="header-section__text">
-            A fully automated process to give a seamless experience.
+          "Where Seamless Realty Meets Effortless Excellence."
           </p>
           <div className="header-section__searchbar">
-            <input type="search" placeholder={`Ibadan, Oyo state`} />
+            <input type="search" placeholder={`Akure, Ondo state`} />
             <Button text="Search" link="/" />
           </div>
         </div>
@@ -41,7 +41,7 @@ const Header = () => {
 const Section1 = () => {
   return (
     <div className="landing-section1">
-      <p>What is Renager?</p>
+      <p>What is Eximious?</p>
       <div className="landing-section1__flex">
         <div className="all-box">
           <div className="first-box">
@@ -80,15 +80,10 @@ const Section1 = () => {
         </div>
         <div className="landing-section__text">
           <h2>
-            An all in one property technology system. Easier, Stress Free,
-            Faster.
+          A Visionary Regenerative Community in Ifedore Local Government, Ondo State, Nigeria.
           </h2>
           <p>
-            We are dedicated towards automating real estate transactions in
-            Nigeria. Our uniqueness is in the way we provide solution for real
-            estate stakeholders to market their properties for sale and lease.
-            Our ultimate goal is to ensure that customers have a transparent and
-            secured means to complete their transactions online.
+          Eximious Estate is more than just a place to live; it's a testament to innovation and sustainability in the heart of Ondo State. Nestled in the serene landscapes of Ifedore Local Government, Eximious is not just an estate; it's a beacon of modern living, redefining real estate in Nigeria.
           </p>
           <a href="/k">Read more &#8250;</a>
         </div>
@@ -124,35 +119,35 @@ const Section2 = () => {
           <div className="tabbed__content">
             <img src={icon} alt="" />
             <div className="tabbed__content__text">
-              <h5 className="tabbed__content__title">Find a property to buy</h5>
+              <h5 className="tabbed__content__title">Find a property to sell</h5>
               <p>
                 View the properties listed on the platform, based on your
                 preference. Or simply search based on the filters provided.
               </p>
             </div>
-            <div className="numbering">01</div>
+            <div className="numbering">02</div>
           </div>
           <div className="tabbed__content">
             <img src={icon} alt="" />
             <div className="tabbed__content__text">
-              <h5 className="tabbed__content__title">Find a property to buy</h5>
+              <h5 className="tabbed__content__title">Find a property to rent</h5>
               <p>
                 View the properties listed on the platform, based on your
                 preference. Or simply search based on the filters provided.
               </p>
             </div>
-            <div className="numbering">01</div>
+            <div className="numbering">03</div>
           </div>
           <div className="tabbed__content">
             <img src={icon} alt="" />
             <div className="tabbed__content__text">
-              <h5 className="tabbed__content__title">Find a property to buy</h5>
+              <h5 className="tabbed__content__title">Find a property to lease</h5>
               <p>
                 View the properties listed on the platform, based on your
                 preference. Or simply search based on the filters provided.
               </p>
             </div>
-            <div className="numbering">01</div>
+            <div className="numbering">04</div>
           </div>
         </div>
       </div>
@@ -169,19 +164,34 @@ const Section3 = () => {
   };
   return (
     <div className="landing-why">
-      <p>Why Renager</p>
+      <p>Why Eximious</p>
       <div className="dropdowns">
         {[
           {
             id: 1,
-            title: "Online",
-            p: "Our payment gateway has made it easier for prospective property owners and tenants to complete all their transactions all on the platform without any form of discomfort.",
+            title: "Regenerative Living",
+            p: " Eximious is not just a place to call home; it's a sustainable community that fosters regenerative living. We prioritize eco-friendly practices, green spaces, and a harmonious coexistence with nature.",
             link: onlinePayment,
           },
           {
             id: 2,
-            title: "eliminte",
-            p: "Our payment gateway has made it easier for prospective property owners and tenants to complete all their transactions all on the platform without any form of discomfort.",
+            title: "Transparency",
+            p: "We believe in transparency as the cornerstone of trust. With Eximious, you can rest assured that your real estate transactions are conducted with the utmost integrity and openness.",
+          },
+          {
+            id: 3,
+            title: "Smart Technology",
+            p: "Say goodbye to traditional real estate hassles. Eximious leverages cutting-edge technology to streamline the buying, selling, and investing process, making it seamless and efficient.",
+          },
+          {
+            id: 4,
+            title: "Community Building",
+            p: " Eximious is more than just an estate; it's a vibrant community where like-minded individuals come together to create lasting connections and shared experiences.",
+          },
+          {
+            id: 5,
+            title: "Investment Opportunities",
+            p: "Whether you're looking for your dream home or a lucrative investment, Eximious offers a range of real estate options to suit your needs and aspirations.",
           },
         ].map((item) => {
           return (
@@ -224,11 +234,10 @@ const Section4 = () => {
       </p>
       <div className="remarks__heading">
         <h1>
-          “Our process involves helping you get high quality properties at your
-          own comfort.”
+        "Our Eximious process is dedicated to ensuring you secure high-quality properties, all from the comfort of your own preferences and desires."
         </h1>
         <h2>
-          - Qazeem Oladejo <br /> <span>CEO</span>
+          - George Ayomipo <br /> <span>CEO</span>
         </h2>
       </div>
       <div className="cards">
@@ -236,20 +245,20 @@ const Section4 = () => {
           {
             id: 0,
             remark:
-              "The customer service is one of a kind. I was professonally guided the whole process of getting my property leased.",
-            author: "John Fadipe",
+            "The customer service at Eximious is truly exceptional. I received professional guidance throughout the entire process of leasing my property. They made what could have been a daunting experience feel effortless and stress-free. I highly recommend Eximious to anyone looking to make their real estate transactions seamless.",
+            author: "Sotomi Olamiji",
           },
           {
             id: 1,
             remark:
-              "Easier way to get a property in Nigeria. A trusted platform and team to deliver",
-            author: "Ambimbola Milfred ",
+            "Eximious exceeded my expectations with their top-notch customer service. The team went above and beyond to assist me in finding the perfect property. Their guidance and support made the process of buying my dream home a breeze. I'm grateful for their expertise and dedication to making real estate transactions a positive experience.",
+            author: "Lawal John ",
           },
           {
             id: 2,
             remark:
-              "Easier way to get a property in Nigeria. A trusted platform and team to deliver",
-            author: "Debola Arojojoye",
+            "I had an outstanding experience working with Eximious. The customer service is unparalleled. They provided me with expert advice and assistance throughout the entire property purchase journey. Thanks to Eximious, I now own a property that perfectly fits my needs and preferences. I couldn't be happier with their services.",
+            author: "Sodipo Esther",
           },
         ].map((item) => {
           const remark = <p className="remark">{item.remark}</p>;

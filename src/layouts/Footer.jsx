@@ -21,7 +21,7 @@ const Footer = () => {
             <h4>EXIMIOUS</h4>
             <div>
               <p>
-                Abdulsalam Close Oladejo Street Owode, Apata, Ibadan, Oyo State
+                Ifedore Local Government, Akure, Ondo State.
               </p>
             </div>
             <div className="footer-support" >

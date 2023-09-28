@@ -45,12 +45,6 @@ const Navigation = () => {
               <li>Rent</li>
               <li>Sell</li>
               <li>Services</li>
-              <li>FAQs</li>
-              {signedIn ? (
-                <li className="navigation-account">Account</li>
-              ) : (
-                <li className="navigation-sign_in">Sign-in</li>
-              )}
             </ul>
           </div>
         ) : (
@@ -63,45 +57,6 @@ const Navigation = () => {
             ) : (
               location.pathname
             )}
-            <div
-              className="notification-bell"
-              onClick={() => setViewNotification((prev) => !prev)}
-            >
-              <img src={bell} alt="" />
-
-              <DropNotification
-                texts={[
-                  "Your profile verification was really successful",
-                  "New features have been added on Renager",
-                  "View all notifications",
-                ]}
-                styles={
-                  viewNotification ? "drop-down drop-down__open" : "drop-down"
-                }
-              />
-            </div>
-            <div className="navigation-user__image">
-              <img src="" alt="" />
-            </div>
-            <p className="navigation-username">Oladele Titilayo</p>
-            <div
-              className="notification-drop__icon"
-              onClick={() => setViewProfile((prev) => !prev)}
-            >
-              <img src={dropDown} alt="" />
-
-              <DropNotification
-                texts={[
-                  "Profile ",
-                  "Dashboard",
-                  "Saved Property",
-                  "Property Documents",
-                  "Referrals",
-                  "Sign out",
-                ]}
-                styles={viewProfile ? "drop-down drop-down__open" : "drop-down"}
-              />
-            </div>
           </div>
         ) : (
           signedIn
