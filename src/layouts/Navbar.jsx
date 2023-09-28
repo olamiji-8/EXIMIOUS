@@ -34,8 +34,8 @@ const Navigation = () => {
   return (
     <div className="navigation-bar">
       <div className="inner-navigation-bar" data-visible={openMenu}>
-        <Link className="navigation-logo" to="/">
-          <img src={logo} alt="logo" />
+        <Link className="navigation-logo" to="/" style={{textDecoration:"none"}}>
+          <p style={{ color:"blue", marginLeft:"20%", fontSize:"24px"}}> EXIMIOUS</p>
         </Link>
         {!(location.pathname === "/service-provider") ? (
           <div className="">
